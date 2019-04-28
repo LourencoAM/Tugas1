@@ -32,7 +32,7 @@ export default class Counter extends Component {
   render() {
     return (
       <div>
-        <Card>
+        <Card className="ukuran">
           <CardImg src={this.props.gambar} />
           <CardBody>
             <br />
@@ -40,13 +40,13 @@ export default class Counter extends Component {
               <b>{this.props.menu}</b>
             </CardTitle>
             <CardSubtitle>
-              <p>Harga: Rp {this.props.harga}</p>
+              <p>Harga: Rp{this.props.harga}</p>
             </CardSubtitle>
             <Navbar>
-              <Button onClick={this.kurang} outline color="danger">
+              <Button size="sm" onClick={this.kurang} outline color="danger">
                 -
               </Button>
-              <Button onClick={this.tambah} outline color="success">
+              <Button size="sm" onClick={this.tambah} outline color="success">
                 +
               </Button>
             </Navbar>

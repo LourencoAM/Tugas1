@@ -14,7 +14,7 @@ export default class Res extends Component {
   render() {
     return (
       <div>
-        <Card>
+        <Card className="ukuran">
           <CardImg top src={this.props.gambar} />
           <CardBody>
             <div align="center">

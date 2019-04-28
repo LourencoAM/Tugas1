@@ -35,7 +35,6 @@ class Resto extends Component {
   render() {
     return (
       <div>
-        <br />
         <Row>
           {this.state.rere.map(it => {
             return (

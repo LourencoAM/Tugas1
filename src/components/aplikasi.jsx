@@ -39,7 +39,7 @@ class Aplikasi extends Component {
         id: 6,
         nbutton: "Go-Clean",
         gambar:
-          "https://apollo-singapore.akamaized.net/v1/files/oglakiyec3mt2-ID/image;s=966x691;olx-st/_1_.jpg"
+          "https://2.bp.blogspot.com/-mKGBtIBfMM0/Wdnq44I5wgI/AAAAAAAAE24/wZn0ZCAkdkYGhBe0mM1P-IHMJA4_YO6-QCLcBGAs/s1600/go-clean.jpg"
       }
     ]
   };
