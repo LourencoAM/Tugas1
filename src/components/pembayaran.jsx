@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./header";
 import Counter from "./counter";
-import { Row, Col, Jumbotron, Button, Table } from "reactstrap";
+import { Row, Col, Jumbotron, Button } from "reactstrap";
 import { Link } from "react-router-dom";
 
 class Pembayaran extends Component {
@@ -68,21 +68,18 @@ class Pembayaran extends Component {
     return (
       <div>
         <Header nameh="Go-Food" />
-        <Table>
-          <tr>
-            <td>
-              <h5>Total Pesanan:</h5>
-            </td>
-            <td>
-              <b>Rp{this.state.total}</b>
-            </td>
-          </tr>
-        </Table>
-        <div align="center">
-          <Button size="sm" outline color="danger" tag={Link} to="/closing">
-            Bayar Sekarang
-          </Button>
-        </div>
+        <Jumbotron>
+          <div align="center">
+            <h5>Total Pesanan:</h5>
+            <hr />
+            <b>Rp{this.state.total}</b>{" "}
+          </div>
+          <div align="center">
+            <Button size="sm" outline color="danger" tag={Link} to="/closing">
+              Bayar Sekarang
+            </Button>
+          </div>
+        </Jumbotron>
         <Row>
           {this.state.makanan.map(ip => (
             <Col xs="6">

@@ -5,8 +5,10 @@ export default class Closing extends Component {
   render() {
     return (
       <div>
-        <Jumbotron>
-          <h1 align="center">Terima Kasih</h1>
+        <Jumbotron className="bgg">
+          <h1 align="center" style={{ color: "black" }}>
+            Terima Kasih
+          </h1>
         </Jumbotron>
       </div>
     );
