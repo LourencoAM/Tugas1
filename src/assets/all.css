@@ -1,0 +1,15 @@
+.bgg {
+  background: url("http://yli.or.id/wp-content/uploads/font-gojek-logo-voluvo.com_-1024x305.png")
+    no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.bgw {
+  background-color: limegreen;
+}
+.ukuran {
+  width: 10%;
+  height: 10%;
+}
