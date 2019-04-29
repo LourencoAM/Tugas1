@@ -81,13 +81,13 @@ class Pembayaran extends Component {
           </div>
         </Jumbotron>
         <Row>
-          {this.state.makanan.map(ip => (
-            <Col xs="6">
+          {this.state.makanan.map(item => (
+            <Col xs="6" lg="4">
               {""}
               <Counter
-                menu={ip.nama}
-                gambar={ip.gambar}
-                harga={ip.price}
+                menu={item.nama}
+                gambar={item.gambar}
+                harga={item.price}
                 tambahTotalHarga={this.tambahTotalHarga}
                 kurangTotalHarga={this.kurangTotalHarga}
               />

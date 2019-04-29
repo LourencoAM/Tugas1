@@ -46,6 +46,9 @@ export default class Counter extends Component {
               <Button size="sm" onClick={this.kurang} outline color="danger">
                 -
               </Button>
+              <p>
+                <b>{this.state.poll}</b>
+              </p>
               <Button size="sm" onClick={this.tambah} outline color="success">
                 +
               </Button>

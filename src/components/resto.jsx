@@ -23,11 +23,6 @@ class Resto extends Component {
       {
         id: 4,
         img:
-          "https://media-cdn.tripadvisor.com/media/photo-s/0d/c1/df/b2/texas-chicken-and-burgers.jpg"
-      },
-      {
-        id: 5,
-        img:
           "https://upload.wikimedia.org/wikipedia/id/thumb/d/d2/Pizza_Hut_logo.svg/1088px-Pizza_Hut_logo.svg.png"
       }
     ]
@@ -38,7 +33,7 @@ class Resto extends Component {
         <Row>
           {this.state.rere.map(it => {
             return (
-              <Col xs="12">
+              <Col xs="12" lg="6">
                 <Res gambar={it.img} />
               </Col>
             );

@@ -50,7 +50,7 @@ class Aplikasi extends Component {
         <Row>
           {this.state.gogo.map(key => {
             return (
-              <Col xs="6">
+              <Col xs="6" lg="4">
                 <MyCard gambar={key.gambar} nbutton={key.nbutton} />
               </Col>
             );
